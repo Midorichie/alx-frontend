@@ -1,0 +1,15 @@
+/* styles/11-style.css */
+
+/* Step 1: Define a new custom property for section tagline transformation */
+:root {
+    --section-tagline-transform: uppercase;
+}
+
+/* Step 2: Target the section-tagline class */
+.section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Other existing declarations */
