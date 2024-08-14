@@ -1,0 +1,8 @@
+/* styles/9-style.css */
+
+/* Step 1: Remove text decoration from all anchor elements */
+a {
+    text-decoration: none;
+}
+
+/* Continue with other CSS declarations as needed */
