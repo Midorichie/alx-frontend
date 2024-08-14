@@ -1,0 +1,52 @@
+/* Universal box-sizing rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Existing html styling */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Existing CSS code... */
+
+/* Custom properties */
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+}
+
+/* Target .section class */
+.section {
+  padding: var(--section-padding);
+}
+
+/* Target .section-header class */
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+/* Target .section-body class */
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+/* Target .section-footer class */
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Target .footer class at the end */
+.footer {
+  padding: var(--footer-padding);
+}
+
+/* Remaining existing CSS code... */
