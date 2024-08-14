@@ -1,19 +1,22 @@
-/* styles/5-style.css */
+/* styles/4-style.css */
 
-/* Define custom font-weight properties on the root selector */
+/* Define custom font-size properties on the root selector */
 :root {
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
 }
 
-/* Set the font-weight of the body to regular */
+/* Set all fonts in the html element to 62.5% of their normal size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set the font size for the body to font-size-medium */
 body {
-    font-weight: var(--font-weight-regular);
-}
-
-/* Set the font-weight of all heading elements (h1-h6) to bold */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
 }
 
 /* Additional CSS declarations can go here */
