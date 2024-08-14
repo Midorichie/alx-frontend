@@ -1,0 +1,19 @@
+/* styles/6-style.css */
+
+/* Define custom font-family properties on the root selector */
+:root {
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Apply the base font-family to the body */
+body {
+    font-family: var(--font-family-base);
+}
+
+/* Apply the title font-family to all heading elements (h1-h6) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Additional CSS declarations can go here */
