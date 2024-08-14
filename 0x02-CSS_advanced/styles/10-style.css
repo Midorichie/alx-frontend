@@ -1,0 +1,15 @@
+/* styles/10-style.css */
+
+/* Step 1: Define a new custom property for section header alignment */
+:root {
+    --section-header-align: center;
+}
+
+/* Step 2: Target the section-header class */
+.section-header {
+    text-align: var(--section-header-align);
+}
+
+/* Other existing declarations */
+
+/* This should be above section-tagline declaration */
