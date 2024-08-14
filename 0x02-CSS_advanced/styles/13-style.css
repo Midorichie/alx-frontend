@@ -1,0 +1,23 @@
+/* styles/13-style.css */
+
+/* Step 1: Target anchor elements containing a hyperlink */
+a[href] {
+    /* Add any existing styles here */
+}
+
+/* Step 2: Target the visited state for links */
+a[href]:visited {
+    font-style: italic;
+}
+
+/* Step 3: Target the hover state for links */
+a[href]:hover {
+    text-decoration: underline;
+}
+
+/* Step 4: Target the active state for links */
+a[href]:active {
+    background-color: var(--color-light-grey); /* Assuming color-light-grey is defined */
+}
+
+/* Other existing declarations */
