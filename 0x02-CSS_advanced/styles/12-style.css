@@ -1,0 +1,18 @@
+/* styles/12-style.css */
+
+/* Step 1: Define custom properties for section title */
+:root {
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black); /* Assuming color-black is defined */
+}
+
+/* Step 2: Target the .section-title class */
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
+
+/* Other existing declarations */
