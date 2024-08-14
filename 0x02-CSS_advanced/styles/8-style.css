@@ -1,0 +1,15 @@
+/* styles/8-style.css */
+
+/* Step 1: Define custom line-height properties on the root element */
+:root {
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+}
+
+/* Step 2: Set the line-height of the body to line-height-base */
+body {
+    line-height: var(--line-height-base);
+}
+
+/* Continue with other CSS declarations as needed */
