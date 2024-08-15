@@ -1,0 +1,13 @@
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
+}
+
+/* Rest of your existing CSS code */
