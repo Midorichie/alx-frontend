@@ -1,54 +1,37 @@
-/* Universal box-sizing rule */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Custom properties */
 :root {
   --section-tagline-margin: 0;
-  --col-padding: calc(0.5 * 1rem); /* Adjust based on root element font size */
-  --font-size-small: 0.875rem; /* Adjust as needed */
-  --text-color: #000; /* Adjust to your specific text color */
+  --font-size-small: 0.875rem; /* Assuming this was defined earlier */
+  --text-color: #161616; /* Assuming this was defined earlier */
 }
 
-/* Targeting .section-tagline class */
 .section-tagline {
   margin: var(--section-tagline-margin);
 }
 
-/* Targeting ul with class .row */
-.row {
+.row ul {
   margin: 0;
   padding: 0;
-  list-style: none; /* Remove default list styles */
+  list-style: none;
 }
 
-/* Targeting .col-1-3 class */
 .col-1-3 {
   width: 33.33%;
   float: left;
-  padding: var(--col-padding);
+  padding: 0.5rem;
 }
 
-/* Targeting .col-1-2 class */
 .col-1-2 {
   width: 50%;
   float: left;
-  padding: var(--col-padding);
+  padding: 0.5rem;
 }
 
-/* Targeting .footer-copyright class */
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
 
-/* Targeting ul tags in .footer class */
 .footer ul {
   text-align: right;
 }
-
-/* Existing CSS code... */
